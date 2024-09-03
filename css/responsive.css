@@ -1,0 +1,96 @@
+@media only screen and (min-width:320px)and (max-width:575px){
+    body{background-color:rgba(165, 42, 42, 0.717);}
+    .main_menu{
+       display: none;
+    }
+
+    .header_item{display: grid;grid-template-columns: 1fr;}
+    .logo_section a img{margin-left: 20%;}
+    .socail_icon{
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .topbar_right {
+        
+        display: none;
+    }
+    .topbar_item .topbar_left ul li a{font-size: 17px;}
+    .topbar_item{ display: inline-block;}
+      
+    
+    .about_inner{display: inline-block;}
+    .services_inner{display: grid;
+    grid-template-columns: 1fr;grid-gap: 0;}
+    .project_inner{display: grid; grid-template-columns: 1fr;}
+    .footer_inner{display: grid; grid-template-columns: 1fr;}
+    .services_item img {max-width: 90%;
+    height: 50%;}
+    
+    .services_item {margin-bottom: 0px;padding-bottom: 0px;}
+    .battun a{font-size: 15px;}
+
+}
+
+
+
+
+
+@media only screen and (min-width:576px)and (max-width:767px){
+    body{
+        background-color: rgba(100, 148, 237, 0.612);
+    }
+    .main_menu{
+        display: none;
+     }
+     .header_item{display: grid;grid-template-columns: 1fr;}
+     .logo_section a img{margin-left: 25%;}
+     .socail_icon{
+         text-align: center;
+         margin-top: 0;
+         margin-right:0;
+     }
+     .topbar_right input{
+        margin-left: -25%;
+    }
+    .icon {
+        margin-left: -80px;
+    }
+     .topbar_item .topbar_left ul li a{font-size: 13px;}
+     .services_inner{display: grid;
+        grid-template-columns: 1fr 1fr;grid-gap: 0;}
+        .about_inner{display: grid;grid-template-columns: 1fr;grid-gap: 0;}
+        .project_inner{display: grid; grid-template-columns:1fr 1fr;}
+        
+        .services_item img {max-width: 90%;
+        height: 40%;}
+        .services_item {margin-bottom: 0px;padding-bottom: 0px;}
+        .footer_item{margin-left: 70px;}
+        .footer_inner{display: grid; grid-template-columns: 1fr; }
+        .respons{display: grid; grid-template-columns:1fr 1fr;}
+        .battun a{font-size: 15px;}
+        
+}
+@media only screen and (min-width:768px)and (max-width:991px){
+    body{
+        background-color: rgba(217, 37, 127, 0.596);
+    }
+
+
+    .topbar_right input{
+        margin-left: 0%;
+    }
+    .icon {
+        margin-left: -25px;
+    }
+
+    .menu_inner ul li a {
+        margin: 13px;
+    }
+    .about_inner{display: grid;grid-template-columns:1fr 1fr ;grid-gap: 15px;}
+    .about_item img {
+        margin-top:100px ;
+    }
+    .services_item img {max-width: 95%;
+        height: 45%;}
+}
